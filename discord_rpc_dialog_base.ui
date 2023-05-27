@@ -10,7 +10,7 @@
    </rect>
   </property>
   <property name="windowTitle" >
-   <string>Discord RPC</string>
+   <string>DiscordRPC Plugin for QGIS</string>
   </property>
   <widget class="QDialogButtonBox" name="button_box" >
    <property name="geometry" >
