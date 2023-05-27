@@ -1,4 +1,4 @@
-# DiscordRPC Plugin for QGIS
+# DiscordRPC Plugin for [QGIS](https://github.com/qgis/QGIS)
 ![Banner](https://github.com/Ryse93/DiscordRPC-Plugin-for-QGIS/assets/69793084/c7c66d65-b802-44d7-b89f-69a508b02219)
 
 ## Features
