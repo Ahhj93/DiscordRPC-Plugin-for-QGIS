@@ -21,7 +21,7 @@
  *                                                                         *
  ***************************************************************************/
 """
-from qgis.PyQt.QtCore import QSettings, QTranslator, QCoreApplication
+from qgis.PyQt.QtCore import QSettings, QTranslator, QCoreApplication, QTimer
 from qgis.PyQt.QtGui import QIcon
 from qgis.PyQt.QtWidgets import QAction
 
@@ -31,28 +31,57 @@ from .resources import *
 from .discord_rpc_dialog import DiscordRPCDialog
 import os.path
 
+from qgis.core import QgsProject
+import qgis.core
+
+import time
 from pypresence import Presence
 
 class DiscordRPC:
     def __init__(self, iface):
         self.iface = iface
         self.RPC = None
+        self.timer = None
+        self.start_time = int(time.time())  # Temps de début initial
 
     def initGui(self):
         # Initialisation de l'instance pypresence.Presence
-        self.RPC = Presence('1111927811419164682')
+        self.RPC = Presence('1112020776099516456')
         self.RPC.connect()
 
-        # Définir les détails de votre Rich Presence
-        self.RPC.update(
-            details="QGIS",
-            state="En train de travailler sur une carte",
-            large_image="nom-de-votre-icone",
-            small_image="nom-de-votre-petite-icone",
-            large_text="Description de l'application",
-            small_text="Description du statut"
-        )
+        # Démarrer le minuteur pour mettre à jour RPC toutes les 5 secondes
+        self.timer = QTimer()
+        self.timer.timeout.connect(self.update_rpc)
+        self.timer.start(5000)  # 5000 millisecondes = 5 secondes
 
     def unload(self):
         if self.RPC is not None:
             self.RPC.close()
+
+        # Arrêter le minuteur lorsque le plugin est déchargé
+        if self.timer is not None:
+            self.timer.stop()
+
+
+    def update_rpc(self):
+        # Obtenez le nom du fichier en cours de modification
+        project = QgsProject.instance()
+        filename = os.path.basename(project.fileName())
+
+        # Vérifier si le fichier a été modifié ou non
+        if filename != "":
+            state = f"Editing {filename}"
+        else:
+            state = "Not editing"
+
+        # Mise à jour de RPC avec le nom du fichier dans l'état (state)
+        self.RPC.update(
+            details = f"QGIS Desktop {get_qgis_version()}",
+            state = state,
+            start = self.start_time,
+            large_image = "logo",
+            large_text = "QGIS",
+        )
+
+def get_qgis_version():
+    return qgis.core.Qgis.QGIS_VERSION
