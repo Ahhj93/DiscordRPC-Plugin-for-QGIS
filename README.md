@@ -16,11 +16,11 @@
 1. Clone or download this repository.
 2. Open QGIS and go to "Plugins" > "Manage and Install Plugins".
 3. Click on the "Install from ZIP" button and select the downloaded ZIP file.
-4. Enable the "DiscordRPC" plugin from the Plugins menu.
+4. Enable the "DiscordRPC Plugin for QGIS" plugin from the Plugins menu.
 
 ## Usage
 1. Ensure you have Discord running on your computer.
-2. Open QGIS and activate the "DiscordRPC" plugin.
+2. Open QGIS and activate the "DiscordRPC Plugin for QGIS" plugin.
 3. The Discord presence will automatically update with your QGIS activity.
 4. You will see the QGIS logo and the details of your activity in Discord.
 
