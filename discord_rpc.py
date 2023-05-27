@@ -42,39 +42,39 @@ class DiscordRPC:
         self.iface = iface
         self.RPC = None
         self.timer = None
-        self.start_time = int(time.time())  # Temps de début initial
+        self.start_time = int(time.time())  # Initial start time
 
     def initGui(self):
-        # Initialisation de l'instance pypresence.Presence
+        # Initializing the pypresence.Presence instance
         self.RPC = Presence('1112020776099516456')
         self.RPC.connect()
 
         # Démarrer le minuteur pour mettre à jour RPC toutes les 5 secondes
         self.timer = QTimer()
         self.timer.timeout.connect(self.update_rpc)
-        self.timer.start(5000)  # 5000 millisecondes = 5 secondes
+        self.timer.start(5000)  # 5000 ms = 5 s
 
     def unload(self):
         if self.RPC is not None:
             self.RPC.close()
 
-        # Arrêter le minuteur lorsque le plugin est déchargé
+        # Start timer to update RPC every 5 seconds
         if self.timer is not None:
             self.timer.stop()
 
 
     def update_rpc(self):
-        # Obtenez le nom du fichier en cours de modification
+        # Get the name of the file being modified
         project = QgsProject.instance()
         filename = os.path.basename(project.fileName())
 
-        # Vérifier si le fichier a été modifié ou non
+        # Check if the file is open
         if filename != "":
             state = f"Editing {filename}"
         else:
             state = "Not editing"
 
-        # Mise à jour de RPC avec le nom du fichier dans l'état (state)
+        # RPC update with filename in state
         self.RPC.update(
             details = f"QGIS Desktop {get_qgis_version()}",
             state = state,
