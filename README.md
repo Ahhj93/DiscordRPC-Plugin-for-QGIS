@@ -1,6 +1,10 @@
 # DiscordRPC Plugin for [QGIS](https://github.com/qgis/QGIS)
 ![Banner](https://github.com/Ryse93/DiscordRPC-Plugin-for-QGIS/assets/69793084/c7c66d65-b802-44d7-b89f-69a508b02219)
-
+<br>
+![Release](https://img.shields.io/github/v/release/Ryse93/DiscordRPC-Plugin-for-QGIS?style=for-the-badge)
+![Realease Date](https://img.shields.io/github/release-date/Ryse93/DiscordRPC-Plugin-for-QGIS?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/Ryse93/DiscordRPC-Plugin-for-QGIS?style=for-the-badge)
+![License](https://img.shields.io/github/license/Ryse93/DiscordRPC-Plugin-for-QGIS?style=for-the-badge)
 ## Features
 
 - Displays your QGIS activity in Discord's Rich Presence.
