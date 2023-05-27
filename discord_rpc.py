@@ -49,7 +49,7 @@ class DiscordRPC:
         self.RPC = Presence('1112020776099516456')
         self.RPC.connect()
 
-        # Démarrer le minuteur pour mettre à jour RPC toutes les 5 secondes
+        # Start timer to update RPC every 5 seconds
         self.timer = QTimer()
         self.timer.timeout.connect(self.update_rpc)
         self.timer.start(5000)  # 5000 ms = 5 s
