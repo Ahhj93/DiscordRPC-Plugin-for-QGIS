@@ -24,4 +24,4 @@
 
 ## License
 
-This plugin is released under the [GNU General Public License](LICENSE).
+This plugin is released under the [GNU General Public License v2.0](LICENSE).
