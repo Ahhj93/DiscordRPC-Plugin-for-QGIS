@@ -27,8 +27,7 @@ from qgis.PyQt.QtWidgets import QAction
 
 # Initialize Qt resources from file resources.py
 from .resources import *
-# Import the code for the dialog
-from .discord_rpc_dialog import DiscordRPCDialog
+
 import os.path
 
 from qgis.core import QgsProject
