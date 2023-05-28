@@ -31,4 +31,5 @@ This plugin is released under the [GNU General Public License v2.0](LICENSE).
 * **[Ryse93](https://github.com/Ryse93)** - *French student in high school*
 
 ## Acknowledgements
+* [g-sherman/Qgis-Plugin-Builder](https://github.com/g-sherman/Qgis-Plugin-Builder)
 * [qwertyquerty/pypresence](https://github.com/qwertyquerty/pypresence/)
