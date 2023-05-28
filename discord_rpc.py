@@ -27,8 +27,7 @@ from qgis.PyQt.QtWidgets import QAction
 
 # Initialize Qt resources from file resources.py
 from .resources import *
-# Import the code for the dialog
-from .discord_rpc_dialog import DiscordRPCDialog
+
 import os.path
 
 from qgis.core import QgsProject
@@ -70,17 +69,16 @@ class DiscordRPC:
 
         # Check if the file is open
         if filename != "":
-            state = f"Editing {filename}"
+            details = f"Editing {filename}"
         else:
-            state = "Not editing"
+            details = "Idling"
 
         # RPC update with filename in state
         self.RPC.update(
-            details = f"QGIS Desktop {get_qgis_version()}",
-            state = state,
+            details = details,
             start = self.start_time,
             large_image = "logo",
-            large_text = "QGIS",
+            large_text = f"QGIS Desktop {get_qgis_version()}",
         )
 
 def get_qgis_version():

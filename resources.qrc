@@ -1,5 +1,0 @@
-<RCC>
-    <qresource prefix="/plugins/discord_rpc" >
-        <file>icon.png</file>
-    </qresource>
-</RCC>
