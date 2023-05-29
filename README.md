@@ -1,10 +1,11 @@
 # DiscordRPC Plugin for [QGIS](https://github.com/qgis/QGIS)
 ![Banner](https://github.com/Ahhj93/DiscordRPC-Plugin-for-QGIS/assets/69793084/449a07f8-d80f-44d7-84ca-2db4be9ad10d)
 <br>
-![Release](https://img.shields.io/github/v/release/Ahhj93/DiscordRPC-Plugin-for-QGIS?style=for-the-badge)
-![Realease Date](https://img.shields.io/github/release-date/Ahhj93/DiscordRPC-Plugin-for-QGIS?style=for-the-badge)
-![Issues](https://img.shields.io/github/issues/Ahhj93/DiscordRPC-Plugin-for-QGIS?style=for-the-badge)
-![License](https://img.shields.io/github/license/Ahhj93/DiscordRPC-Plugin-for-QGIS?style=for-the-badge)
+![Release](https://img.shields.io/github/v/release/Ahhj93/DiscordRPC-Plugin-for-QGIS?style=flat-square)
+![Realease Date](https://img.shields.io/github/release-date/Ahhj93/DiscordRPC-Plugin-for-QGIS?style=flat-square)
+![Issues](https://img.shields.io/github/issues/Ahhj93/DiscordRPC-Plugin-for-QGIS?style=flat-square)
+![License](https://img.shields.io/github/license/Ahhj93/DiscordRPC-Plugin-for-QGIS?style=flat-square)
+[![pypresence](https://img.shields.io/badge/using-pypresence-00bb88.svg?style=flat-square&logo=discord&logoWidth=20)](https://github.com/qwertyquerty/pypresence)
 
 DiscordRPC Plugin for QGIS on QGIS Python Plugin Repository: [plugins.qgis.org/plugins/DiscordRPC-Plugin-for-QGIS/](https://plugins.qgis.org/plugins/DiscordRPC-Plugin-for-QGIS/).
 
