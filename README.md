@@ -1,10 +1,10 @@
 # DiscordRPC Plugin for [QGIS](https://github.com/qgis/QGIS)
-![Banner](https://github.com/Ryse93/DiscordRPC-Plugin-for-QGIS/assets/69793084/b31641c6-0cc9-4fa0-b428-7eb7b0053766)
+![Banner](https://github.com/Ahhj93/DiscordRPC-Plugin-for-QGIS/assets/69793084/b31641c6-0cc9-4fa0-b428-7eb7b0053766)
 <br>
-![Release](https://img.shields.io/github/v/release/Ryse93/DiscordRPC-Plugin-for-QGIS?style=for-the-badge)
-![Realease Date](https://img.shields.io/github/release-date/Ryse93/DiscordRPC-Plugin-for-QGIS?style=for-the-badge)
-![Issues](https://img.shields.io/github/issues/Ryse93/DiscordRPC-Plugin-for-QGIS?style=for-the-badge)
-![License](https://img.shields.io/github/license/Ryse93/DiscordRPC-Plugin-for-QGIS?style=for-the-badge)
+![Release](https://img.shields.io/github/v/release/Ahhj93/DiscordRPC-Plugin-for-QGIS?style=for-the-badge)
+![Realease Date](https://img.shields.io/github/release-date/Ahhj93/DiscordRPC-Plugin-for-QGIS?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/Ahhj93/DiscordRPC-Plugin-for-QGIS?style=for-the-badge)
+![License](https://img.shields.io/github/license/Ahhj93/DiscordRPC-Plugin-for-QGIS?style=for-the-badge)
 
 ## Features
 - Displays your QGIS activity in Discord's Rich Presence.
@@ -28,7 +28,7 @@
 This plugin is released under the [GNU General Public License v2.0](LICENSE).
 
 ## Authors
-* **[Ryse93](https://github.com/Ryse93)** - *French student in high school*
+* **[Ahhj93](https://github.com/Ahhj93)** - *French student in high school*
 
 ## Acknowledgements
 * [g-sherman/Qgis-Plugin-Builder](https://github.com/g-sherman/Qgis-Plugin-Builder)
