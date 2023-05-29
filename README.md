@@ -15,10 +15,16 @@ DiscordRPC Plugin for QGIS on QGIS Python Plugin Repository: [plugins.qgis.org/p
 - Updates the presence every 5 seconds to keep the information up to date.
 
 ## Installation
+### Installation via ZIP file
 1. Clone or download this repository.
 2. Open QGIS and go to "Plugins" > "Manage and Install Plugins".
 3. Click on the "Install from ZIP" button and select the downloaded ZIP file.
 4. Enable the "DiscordRPC Plugin for QGIS" plugin from the Plugins menu.
+
+### Instalation via QGIS
+1. Open QGIS and go to "Plugins" > "Manage and Install Plugins".
+2. Search DiscordRPC Plugin for QGIS and install.
+3. Enable the "DiscordRPC Plugin for QGIS" plugin from the Plugins menu.
 
 ## Usage
 1. Ensure you have Discord running on your computer.
