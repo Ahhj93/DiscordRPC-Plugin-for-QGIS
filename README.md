@@ -6,6 +6,8 @@
 ![Issues](https://img.shields.io/github/issues/Ahhj93/DiscordRPC-Plugin-for-QGIS?style=for-the-badge)
 ![License](https://img.shields.io/github/license/Ahhj93/DiscordRPC-Plugin-for-QGIS?style=for-the-badge)
 
+DiscordRPC Plugin for QGIS on QGIS Python Plugin Repository: [plugins.qgis.org/plugins/DiscordRPC-Plugin-for-QGIS/](https://plugins.qgis.org/plugins/DiscordRPC-Plugin-for-QGIS/).
+
 ## Features
 - Displays your QGIS activity in Discord's Rich Presence.
 - Shows the QGIS version you are using.
