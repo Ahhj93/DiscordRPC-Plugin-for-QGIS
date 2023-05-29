@@ -6,14 +6,14 @@
 name=DiscordRPC Plugin for QGIS
 qgisMinimumVersion=3.0
 description=QGIS plugin that enables displaying a Rich Presence in Discord
-version=2.0
-author=Ryse93
+version=3.0
+author=Ahhj93
 email=/
 
 about=QGIS plugin that enables displaying a Rich Presence in Discord.
 
-tracker=https://github.com/Ryse93/DiscordRPC-Plugin-for-QGIS/issues
-repository=https://github.com/Ryse93/DiscordRPC-Plugin-for-QGIS
+tracker=https://github.com/Ahhj93/DiscordRPC-Plugin-for-QGIS/issues
+repository=https://github.com/Ahhj93/DiscordRPC-Plugin-for-QGIS
 # End of mandatory metadata
 
 # Recommended items:
@@ -25,7 +25,7 @@ hasProcessingProvider=no
 # Tags are comma separated with spaces allowed
 tags=python, qgis, discord
 
-homepage=
+homepage=https://github.com/Ahhj93/DiscordRPC-Plugin-for-QGIS
 category=Plugins
 icon=icon.png
 # experimental flag
