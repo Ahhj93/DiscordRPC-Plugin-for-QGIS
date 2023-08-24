@@ -38,7 +38,7 @@ This plugin is released under the [GNU General Public License v2.0](LICENSE).
 
 ## Authors
 * [**@Ahhj93**](https://github.com/Ahhj93) - French student in CPGE MP2I
-* 
+
 ## Acknowledgements
 * [g-sherman/Qgis-Plugin-Builder](https://github.com/g-sherman/Qgis-Plugin-Builder)
 * [qwertyquerty/pypresence](https://github.com/qwertyquerty/pypresence/)
