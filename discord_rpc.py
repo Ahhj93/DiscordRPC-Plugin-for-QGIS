@@ -21,6 +21,10 @@
  *                                                                         *
  ***************************************************************************/
 """
+
+__author__ = "Ahhj93"
+__license__ = "GPL 2.0"
+
 from qgis.PyQt.QtCore import QSettings, QTranslator, QCoreApplication, QTimer
 from qgis.PyQt.QtGui import QIcon
 from qgis.PyQt.QtWidgets import QAction
@@ -70,15 +74,21 @@ class DiscordRPC:
         # Check if the file is open
         if filename != "":
             details = f"Editing {filename}"
+            image = "editing"
+            text_image = "Editing a file"
         else:
             details = "Idling"
+            image = "idling"
+            text_image = "Idling"
 
         # RPC update with filename in state
         self.RPC.update(
             details = details,
             start = self.start_time,
-            large_image = "logo",
-            large_text = f"QGIS Desktop {get_qgis_version()}",
+            large_image = image,
+            large_text = text_image,
+            small_image = "logo",
+            small_text = f"QGIS Desktop {get_qgis_version()}",
         )
 
 def get_qgis_version():
