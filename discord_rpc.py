@@ -21,6 +21,10 @@
  *                                                                         *
  ***************************************************************************/
 """
+
+__author__ = "Ahhj93"
+__license__ = "GPL 2.0"
+
 from qgis.PyQt.QtCore import QSettings, QTranslator, QCoreApplication, QTimer
 from qgis.PyQt.QtGui import QIcon
 from qgis.PyQt.QtWidgets import QAction

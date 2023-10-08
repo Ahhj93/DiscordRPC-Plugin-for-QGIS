@@ -23,6 +23,8 @@
  This script initializes the plugin, making it known to QGIS.
 """
 
+__author__ = "Ahhj93"
+__license__ = "GPL 2.0"
 
 # noinspection PyPep8Naming
 def classFactory(iface):  # pylint: disable=invalid-name
