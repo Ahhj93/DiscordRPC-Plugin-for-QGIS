@@ -42,3 +42,8 @@ This plugin is released under the [GNU General Public License v2.0](LICENSE).
 ## Acknowledgements
 * [g-sherman/Qgis-Plugin-Builder](https://github.com/g-sherman/Qgis-Plugin-Builder)
 * [qwertyquerty/pypresence](https://github.com/qwertyquerty/pypresence/)
+
+### Icons
+* [Cup of coffee.svg](https://commons.wikimedia.org/wiki/File:Cup_of_coffee.svg) by [Filip Nohe](https://commons.wikimedia.org/wiki/Special:Contributions/Filip_nohe) is licensed under [GFDL](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) and CC BY-SA-[2.5](https://creativecommons.org/licenses/by-sa/2.5/deed), [2.0](https://creativecommons.org/licenses/by-sa/2.0/deed.fr), and [1.0](https://creativecommons.org/licenses/by-sa/1.0/deed).
+* [Icons8 flat edit image.svg](https://commons.wikimedia.org/wiki/File:Icons8_flat_edit_image.svg) by [Icons8](https://icons8.com/icons/color) is licensed under [MIT License](https://opensource.org/license/mit/).
+* [Circle-icons-map.svg](https://commons.wikimedia.org/wiki/File:Circle-icons-map.svg) by [Elegant Themes](https://www.elegantthemes.com/blog/freebie-of-the-week/beautiful-flat-icons-for-free) is licensed under [GNU General Public License v2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
