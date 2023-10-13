@@ -1,5 +1,5 @@
 # DiscordRPC Plugin for [QGIS](https://github.com/qgis/QGIS)
-![Banner](https://github.com/Ahhj93/DiscordRPC-Plugin-for-QGIS/assets/69793084/95af5efe-fb37-40af-bf0a-eda5feb8356c)
+![Banner](https://github.com/Ahhj93/DiscordRPC-Plugin-for-QGIS/assets/69793084/3a4780e6-e390-45ae-9e76-c50d502af5a9)
 <br>
 ![Release](https://img.shields.io/github/v/release/Ahhj93/DiscordRPC-Plugin-for-QGIS?style=flat-square)
 ![Realease Date](https://img.shields.io/github/release-date/Ahhj93/DiscordRPC-Plugin-for-QGIS?style=flat-square)
