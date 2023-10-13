@@ -8,7 +8,7 @@
 [![pypresence](https://img.shields.io/badge/using-pypresence-00bb88.svg?style=flat-square&logo=discord&logoWidth=20)](https://github.com/qwertyquerty/pypresence)
 
 > **Note**
-> DiscordRPC Plugin for QGIS on QGIS Python Plugin Repository: [plugins.qgis.org/plugins/DiscordRPC-Plugin-for-QGIS/](https://plugins.qgis.org/plugins/DiscordRPC-Plugin-for-QGIS/).
+> DiscordRPC Plugin for QGIS on [QGIS Python Plugin Repository](https://plugins.qgis.org/plugins/DiscordRPC-Plugin-for-QGIS/)
 
 ## Features
 - Displays your QGIS activity in Discord's Rich Presence.
