@@ -35,7 +35,9 @@
 4. You will see the QGIS logo and the details of your activity in Discord.
 
 ## License
-This plugin is released under the [GNU General Public License v2.0](LICENSE).
+This plugin is released under the [GNU General Public License v2.0](LICENSE) unless otherwise stated.
+> **Important**
+> This plugin uses [pypresence](https://github.com/qwertyquerty/pypresence/) to communicate with Discord. [pypresence] is released under the [MIT License](https://opensource.org/licenses/mit/).
 
 ## Authors
 * [**@Ahhj93**](https://github.com/Ahhj93) — French student in CPGE MP2I
