@@ -6,7 +6,7 @@
 name=DiscordRPC Plugin for QGIS
 qgisMinimumVersion=3.0
 description=QGIS plugin that enables displaying a Rich Presence in Discord
-version=4.0
+version=5.0
 author=Ahhj93
 email=/
 
@@ -44,9 +44,4 @@ Category of the plugin: Raster, Vector, Database or Web
 
 # If the plugin can run on QGIS Server.
 server=False
-
-# Requires pypresence module
-[dependencies]
-requires_pypi = pypresence
-requires_external = pypresence
 
