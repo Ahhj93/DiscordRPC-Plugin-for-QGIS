@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/github/license/Ahhj93/DiscordRPC-Plugin-for-QGIS?style=flat-square)
 [![pypresence](https://img.shields.io/badge/using-pypresence-00bb88.svg?style=flat-square&logo=discord&logoWidth=20)](https://github.com/qwertyquerty/pypresence)
 
-> **Note**
+> [!Note]
 > DiscordRPC Plugin for QGIS on [QGIS Python Plugin Repository](https://plugins.qgis.org/plugins/DiscordRPC-Plugin-for-QGIS/)
 
 ## Features
