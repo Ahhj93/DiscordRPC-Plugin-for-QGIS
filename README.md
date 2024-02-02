@@ -36,7 +36,7 @@
 
 ## License
 This plugin is released under the [GNU General Public License v2.0](LICENSE) unless otherwise stated.
-> **Important**
+> [!Important]
 > This plugin uses `pypresence` to communicate with Discord. `pypresence` is released under the [MIT License](https://opensource.org/licenses/mit/).
 
 ## Authors
