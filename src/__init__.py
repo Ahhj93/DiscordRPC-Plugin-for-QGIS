@@ -26,7 +26,7 @@
 __title__ = 'DiscordRPC Plugin for QGIS'
 __author__ = "Ahhj93"
 __license__ = "GPL 2.0"
-__version__ = "5.0"
+__version__ = "5.1"
 
 # noinspection PyPep8Naming
 def classFactory(iface):  # pylint: disable=invalid-name
