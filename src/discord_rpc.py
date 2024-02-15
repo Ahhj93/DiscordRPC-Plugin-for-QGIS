@@ -62,7 +62,6 @@ class DiscordRPC:
         if self.timer is not None:
             self.timer.stop()
 
-
     def update_rpc(self):
         # Get the name of the file being modified
         project = QgsProject.instance()
