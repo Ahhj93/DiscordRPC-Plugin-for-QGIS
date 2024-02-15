@@ -14,11 +14,8 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Rename directory
-      run: mv src DiscordRPC-Plugin-for-QGIS
-
     - name: Create Zip
-      run: zip -r release.zip DiscordRPC-Plugin-for-QGIS/
+      run: zip -r release.zip src/
 
     - name: Upload Zip
       uses: actions/upload-release-asset@v1
