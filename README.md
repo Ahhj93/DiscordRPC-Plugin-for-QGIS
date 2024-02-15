@@ -18,7 +18,7 @@
 
 ## Installation
 ### Installation via ZIP file
-1. Clone or download this repository.
+1. Download the lastest release.
 2. Open QGIS and go to "Plugins" > "Manage and Install Plugins".
 3. Click on the "Install from ZIP" button and select the downloaded ZIP file.
 4. Enable the "DiscordRPC Plugin for QGIS" plugin from the Plugins menu.
