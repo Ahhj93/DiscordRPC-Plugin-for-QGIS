@@ -17,13 +17,13 @@ jobs:
     - name: Create Zip
       run: |
         cd src/
-        zip -r "../DiscordRPC-Plugin-for-QGIS-${{ github.event.release.tag_name }}.zip" .
+        zip -r ../release.zip .
 
     - name: Upload Zip
       uses: actions/upload-release-asset@v1
       with:
         upload_url: ${{ github.event.release.upload_url }}
-        asset_path: "../DiscordRPC-Plugin-for-QGIS-${{ github.event.release.tag_name }}.zip"
+        asset_path: ./release.zip
         asset_name: "DiscordRPC-Plugin-for-QGIS-${{ github.event.release.tag_name }}.zip"
         asset_content_type: application/zip
       env:
